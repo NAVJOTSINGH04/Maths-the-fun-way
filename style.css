@@ -1,0 +1,55 @@
+
+#container {
+    width: 1050px;
+    border: 1px solid grey;
+/*    height: 200px;*/
+        margin: 0px auto;
+    
+    
+}
+#brand {
+    float: left
+/*         change block to float element*/
+}
+
+h1 a {
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 40px;
+    color: #ba14d0;
+    }
+
+#searchbox {
+    float: right;
+        background:linear-gradient(#E4F2B9,#B7E953);
+    width: 400px;
+    height: 50px;
+    padding:20px 20px 0px 20px;
+    margin-top: 16px;
+        
+}
+
+#header {
+    height: 100px;
+    padding:10px 0px;
+}
+
+.text {
+    float: left;
+    padding: 5px;
+    font-size: 15px;
+    color: #d2372c;
+}
+
+.button {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    background: rgba( 196, 44, 210, 0.636 );
+    font-size: 15px;
+
+}
+
+.clear {
+    clear: both;
+}
