@@ -2,7 +2,7 @@
 #container {
     width: 1050px;
     border: 1px solid grey;
-/*    height: 200px;*/
+  height: 200px;
         margin: 0px auto;
     
     
@@ -52,4 +52,38 @@ h1 a {
 
 .clear {
     clear: both;
+}
+#menu{
+    
+    height: 70px;
+    background:linear-gradient(#f3a006,#c78a50);
+    padding:5px 0;
+
+}
+ul{
+    
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0px 40px;
+    height:30px;
+    border-right: 1px solid blue;
+}
+#menu ul li:last-child{
+  border-right: none;*/
+}
+#menu ul li a{
+/*    to remove under line */
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover,#menu ul li a.active{
+    font-size: 15px;
+    font-weight: bold;
+    color: #BA14D1
 }
