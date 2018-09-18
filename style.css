@@ -1,7 +1,7 @@
 
 #container {
     width: 1050px;
-    border: 1px solid grey;
+/*    border: 1px solid grey;*/
   height: 200px;
         margin: 0px auto;
     
@@ -77,13 +77,93 @@ ul{
 #menu ul li a{
 /*    to remove under line */
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 30px;
-    transition: font-size 0.3s ease;
+   -webkit-transition: font-size 0.3s ease; !--for-swift--
+   -moz- transition: font-size 0.3s ease;     !--mozilla--
+   -0- transition: font-size 0.3s ease;     !--opera--
+   -ms- transition: font-size 0.3s ease;    !--internet-explorer-
+    transition: font-size 0.3s ease; 
+
+
 }
 
 #menu ul li a:hover,#menu ul li a.active{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     color: #BA14D1
+         
 }
+.content {
+    font-size: 25px;
+
+
+    
+ 
+}
+
+#introduction {
+    background: linear-gradient(#9ef320,#a9d962);
+    padding: 30px;
+    margin: 20px 0px;
+    
+}
+#introduction h1{
+    font-size: 45px;
+/*    color: darkgreen;*/
+}
+.sidebar ul{
+    padding-top: 10px;
+}
+#slidebar2 ul li {
+     padding-bottom:20px;
+    padding-left: 5px;
+    list-style-image: url(LogoMakr_4boWHM.png)
+    
+}
+#slidebar1 ul li{
+    padding: 6px 0px 6px 10px;
+/*    padding-bottom:10px;*/
+/*    padding-left: 5px;*/
+    list-style-image: url(LogoMakr_82jGrQ.png)
+}
+.sidebar ul li a{
+    text-decoration: none;
+/*    letter-spacing: 3px; */
+    font-size: 20px;
+    color: black;
+    -webkit-transition: font-size 0.3s ease; !--for-swift--
+   -moz- transition: font-size 0.3s ease;     !--mozilla--
+   -0- transition: font-size 0.3s ease;     !--opera--
+   -ms- transition: font-size 0.3s ease;    !--internet-explorer-
+    transition: font-size 0.3s ease; 
+} 
+.sidebar ul li a:hover {
+    font-size: 35px;
+    font-weight: bold;
+    color: #BC14D0;
+    
+}
+
+.sidebar {
+    height: 600px;
+    width: 400px;
+    border: 1px solid #BAF46F;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+#slidebar1 {
+    float: left
+}
+
+#slidebar2 {
+    float: right;
+}
+
+.sidebar h1 {
+    color: #BC14D0;
+font-size: 30px;
+}
+
+
